@@ -81,6 +81,14 @@ export default function Footer() {
                   Участники
                 </button>
               </li>
+              <li>
+                <button 
+                  onClick={() => scrollToSection("contact")} 
+                  className="hover:text-mining-orange transition-colors"
+                >
+                  Контакты
+                </button>
+              </li>
             </ul>
           </div>
           

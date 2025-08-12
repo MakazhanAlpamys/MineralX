@@ -4,6 +4,9 @@ import MissionVision from "@/components/mission-vision";
 import DigitalTrends from "@/components/digital-trends";
 import KeyObjectives from "@/components/key-objectives";
 import MemberCompanies from "@/components/member-companies";
+import ManagementStructure from "@/components/management-structure";
+import MemberBenefits from "@/components/member-benefits";
+import ConclusionSection from "@/components/conclusion-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 
@@ -16,6 +19,9 @@ export default function Home() {
       <DigitalTrends />
       <KeyObjectives />
       <MemberCompanies />
+      <ManagementStructure />
+      <MemberBenefits />
+      <ConclusionSection />
       <ContactSection />
       <Footer />
     </div>
