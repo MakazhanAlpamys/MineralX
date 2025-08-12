@@ -39,13 +39,44 @@ export default function MissionVision() {
             </Card>
           </div>
           
+          {/* Right side - Abstract visual representation */}
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-              alt="Modern metallurgy facility with digital displays" 
-              className="rounded-2xl shadow-2xl"
-            />
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-mining-dark/60 to-transparent"></div>
+            <div className="bg-gradient-to-br from-mining-charcoal to-mining-dark rounded-2xl p-12 shadow-2xl border border-mining-gray/30">
+              {/* Central element */}
+              <div className="relative mx-auto w-48 h-48 flex items-center justify-center">
+                {/* Outer ring */}
+                <div className="absolute inset-0 rounded-full border-4 border-mining-orange/30 animate-pulse"></div>
+                <div className="absolute inset-4 rounded-full border-2 border-mining-gold/20"></div>
+                
+                {/* Central icon */}
+                <div className="w-20 h-20 bg-gradient-mining rounded-full flex items-center justify-center shadow-xl">
+                  <Target className="h-10 w-10 text-black" />
+                </div>
+                
+                {/* Floating elements */}
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-mining-orange rounded-full flex items-center justify-center animate-float">
+                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                </div>
+                <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-mining-gold rounded-full flex items-center justify-center animate-float-delayed">
+                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                </div>
+                <div className="absolute top-1/2 -left-4 transform -translate-y-1/2 w-8 h-8 bg-mining-orange rounded-full flex items-center justify-center animate-float">
+                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                </div>
+                <div className="absolute top-1/2 -right-4 transform -translate-y-1/2 w-8 h-8 bg-mining-gold rounded-full flex items-center justify-center animate-float-delayed">
+                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                </div>
+              </div>
+              
+              {/* Connection lines */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <svg className="w-full h-full opacity-20" viewBox="0 0 200 200">
+                  <circle cx="100" cy="100" r="80" fill="none" stroke="#FFA500" strokeWidth="1" strokeDasharray="5,5" />
+                  <circle cx="100" cy="100" r="60" fill="none" stroke="#FFD700" strokeWidth="1" strokeDasharray="3,3" />
+                  <circle cx="100" cy="100" r="40" fill="none" stroke="#FFA500" strokeWidth="1" strokeDasharray="2,2" />
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </div>
