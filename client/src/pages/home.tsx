@@ -7,7 +7,6 @@ import MemberCompanies from "@/components/member-companies";
 import ManagementStructure from "@/components/management-structure";
 import MemberBenefits from "@/components/member-benefits";
 import ConclusionSection from "@/components/conclusion-section";
-import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -22,7 +21,6 @@ export default function Home() {
       <ManagementStructure />
       <MemberBenefits />
       <ConclusionSection />
-      <ContactSection />
       <Footer />
     </div>
   );

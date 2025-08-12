@@ -1,14 +1,6 @@
 import { Rocket, Users, Lightbulb } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-
 export default function ConclusionSection() {
-  const scrollToContact = () => {
-    const element = document.getElementById("contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <section className="py-20 bg-mining-dark relative overflow-hidden">
@@ -79,30 +71,10 @@ export default function ConclusionSection() {
               <h3 className="text-3xl font-bold text-white mb-6">
                 Будущее горной отрасли начинается сегодня
               </h3>
-              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              <p className="text-xl text-gray-300 max-w-3xl mx-auto">
                 MineralX создает экосистему, где передовые технологии встречаются с 
                 промышленным опытом, формируя новую эру цифровой добычи и металлургии
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  onClick={scrollToContact}
-                  className="gradient-mining text-black px-8 py-4 text-lg font-semibold hover:opacity-90 transition-all mining-glow"
-                >
-                  Присоединиться к ассоциации
-                </Button>
-                <Button 
-                  onClick={() => {
-                    const element = document.getElementById("about");
-                    if (element) {
-                      element.scrollIntoView({ behavior: "smooth" });
-                    }
-                  }}
-                  variant="outline" 
-                  className="border-2 border-mining-orange text-mining-orange px-8 py-4 text-lg font-semibold hover:bg-mining-orange hover:text-black transition-all"
-                >
-                  Узнать больше
-                </Button>
-              </div>
             </CardContent>
           </Card>
         </div>
