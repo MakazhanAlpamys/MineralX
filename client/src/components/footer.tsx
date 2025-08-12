@@ -26,29 +26,6 @@ export default function Footer() {
             <p className="text-gray-400 mb-4">
               Ассоциация цифровой трансформации горнодобывающей и металлургической промышленности
             </p>
-            <div className="flex space-x-4">
-              <a 
-                href="#" 
-                className="text-mining-orange hover:text-mining-gold transition-colors"
-                aria-label="LinkedIn"
-              >
-                <SiLinkedin className="text-xl h-5 w-5" />
-              </a>
-              <a 
-                href="#" 
-                className="text-mining-orange hover:text-mining-gold transition-colors"
-                aria-label="Twitter"
-              >
-                <SiX className="text-xl h-5 w-5" />
-              </a>
-              <a 
-                href="#" 
-                className="text-mining-orange hover:text-mining-gold transition-colors"
-                aria-label="Facebook"
-              >
-                <SiFacebook className="text-xl h-5 w-5" />
-              </a>
-            </div>
           </div>
           
           <div>
@@ -102,11 +79,11 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center">
                 <Mail className="mr-2 text-mining-orange h-4 w-4" />
-                info@mineralx.org
+                Kuat@telematika.kz
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 text-mining-orange h-4 w-4" />
-                +7 777 123 4567
+                +7 771 022 88 88
               </li>
               <li className="flex items-center">
                 <MapPin className="mr-2 text-mining-orange h-4 w-4" />
