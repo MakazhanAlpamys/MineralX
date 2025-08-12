@@ -1,5 +1,6 @@
 import { Mountain, Mail, Phone, MapPin } from "lucide-react";
 import { SiLinkedin, SiX, SiFacebook } from "react-icons/si";
+import logoImage from "@assets/image_1755021177876.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -15,7 +16,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Mountain className="text-mining-orange text-2xl h-8 w-8" />
+              <img 
+                src={logoImage} 
+                alt="MineralX Logo" 
+                className="h-8 w-8"
+              />
               <span className="text-xl font-bold text-gradient">MineralX</span>
             </div>
             <p className="text-gray-400 mb-4">

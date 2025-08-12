@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Mountain, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import logoImage from "@assets/image_1755021177876.png";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +38,11 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <Mountain className="text-mining-orange text-2xl h-8 w-8" />
+            <img 
+              src={logoImage} 
+              alt="MineralX Logo" 
+              className="h-8 w-8"
+            />
             <span className="text-xl font-bold text-gradient">MineralX</span>
           </div>
 
