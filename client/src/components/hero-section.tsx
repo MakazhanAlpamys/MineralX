@@ -54,8 +54,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
               onClick={scrollToAbout}
-              variant="outline" 
-              className="border-2 border-mining-orange text-mining-orange px-8 py-4 text-lg font-semibold hover:bg-mining-orange hover:text-black transition-all"
+              className="gradient-mining text-black px-10 py-5 text-lg font-bold hover:opacity-90 transition-all mining-glow shadow-2xl transform hover:scale-105 active:scale-95 rounded-xl"
             >
               Узнать больше
             </Button>
