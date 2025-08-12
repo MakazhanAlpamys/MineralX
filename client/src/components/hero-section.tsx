@@ -18,7 +18,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-mining-dark via-mining-charcoal to-mining-dark overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-mining-dark via-mining-charcoal to-mining-dark overflow-hidden py-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -50,9 +50,9 @@ export default function HeroSection() {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold leading-relaxed mb-8">
             Цифровое
-            <span className="text-gradient block">Будущее</span>
+            <span className="text-gradient block py-2">Будущее</span>
             Горной Добычи
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
