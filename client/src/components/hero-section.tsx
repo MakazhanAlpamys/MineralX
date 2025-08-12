@@ -50,19 +50,6 @@ export default function HeroSection() {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
         <div className="max-w-3xl">
-          {/* Logo */}
-          <div className="flex items-center mb-8">
-            <img 
-              src={logoImage} 
-              alt="MineralX Logo" 
-              className="h-16 w-16 mr-4"
-            />
-            <div>
-              <h2 className="text-2xl font-bold text-gradient">MineralX Association</h2>
-              <p className="text-mining-gold text-sm">Digital Mining & Metallurgy</p>
-            </div>
-          </div>
-
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
             Цифровое
             <span className="text-gradient block">Будущее</span>
