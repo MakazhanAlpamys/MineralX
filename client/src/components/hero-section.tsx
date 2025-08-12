@@ -3,13 +3,6 @@ import { Button } from "@/components/ui/button";
 import logoImage from "@assets/image_1755021177876.png";
 
 export default function HeroSection() {
-  const scrollToContact = () => {
-    const element = document.getElementById("contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   const scrollToAbout = () => {
     const element = document.getElementById("about");
     if (element) {
@@ -59,12 +52,6 @@ export default function HeroSection() {
             Ассоциация MineralX объединяет лидеров цифровых технологий и промышленных гигантов для ускорения трансформации горнодобывающей и металлургической отраслей
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button 
-              onClick={scrollToContact}
-              className="gradient-mining text-black px-8 py-4 text-lg font-semibold hover:opacity-90 transition-all mining-glow"
-            >
-              Присоединиться
-            </Button>
             <Button 
               onClick={scrollToAbout}
               variant="outline" 

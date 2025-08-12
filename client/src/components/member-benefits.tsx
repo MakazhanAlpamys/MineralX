@@ -67,31 +67,6 @@ export default function MemberBenefits() {
             );
           })}
         </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <Card className="bg-gradient-to-r from-mining-orange/20 to-mining-gold/20 border-mining-orange/30">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-white mb-4">
-                Станьте частью цифрового будущего горной отрасли
-              </h3>
-              <p className="text-lg text-gray-300 mb-6">
-                Присоединяйтесь к ведущим компаниям, которые формируют завтрашний день индустрии
-              </p>
-              <button
-                onClick={() => {
-                  const element = document.getElementById("contact");
-                  if (element) {
-                    element.scrollIntoView({ behavior: "smooth" });
-                  }
-                }}
-                className="gradient-mining text-black px-8 py-4 text-lg font-semibold rounded-lg hover:opacity-90 transition-all mining-glow"
-              >
-                Подать заявку на участие
-              </button>
-            </CardContent>
-          </Card>
-        </div>
       </div>
     </section>
   );
