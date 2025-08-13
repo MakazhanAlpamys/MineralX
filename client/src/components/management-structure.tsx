@@ -32,40 +32,8 @@ export default function ManagementStructure() {
   return (
     <section className="py-20 bg-mining-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Структура и <span className="text-gradient">Управление</span>
-          </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Ассоциация управляется Советом Директоров из представителей компаний-участников
-          </p>
-        </div>
         
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <Card className="bg-mining-charcoal border-mining-gray/50 hover-lift">
-              <CardContent className="p-8">
-                <div className="flex items-center mb-6">
-                  <Users2 className="text-mining-orange text-3xl mr-4 h-8 w-8" />
-                  <h3 className="text-2xl font-bold text-white">Совет Директоров</h3>
-                </div>
-                <p className="text-gray-300 text-lg leading-relaxed">
-                  Высший орган управления ассоциацией, состоящий из представителей всех компаний-участников. 
-                  Совет принимает стратегические решения и определяет основные направления развития.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-          
-          <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=2126&q=80" 
-              alt="Business meeting with technology displays" 
-              className="rounded-2xl shadow-2xl"
-            />
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-mining-dark/60 to-transparent"></div>
-          </div>
-        </div>
+
 
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold text-white mb-4">Рабочие Группы</h3>

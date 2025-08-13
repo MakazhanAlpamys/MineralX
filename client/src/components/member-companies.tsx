@@ -1,4 +1,4 @@
-import { Server, BarChart3, Satellite, Settings, Lock, QrCode, ShoppingCart, Building, Database, Cpu } from "lucide-react";
+import { Server, BarChart3, Satellite, Settings, Lock, QrCode, ShoppingCart, Building, Database, Cpu, Book } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function MemberCompanies() {
@@ -62,6 +62,12 @@ export default function MemberCompanies() {
       description: "Электронное оборудование для шахт, сенсоры и системы автоматизации",
       icon: Cpu,
       color: "text-mining-gold"
+    },
+    {
+      name: "Nazarbayev University",
+      description: "Международный исследовательский университет с обучением на английском языке",
+      icon: Book,
+      color: "text-mining-blue"
     }
   ];
 

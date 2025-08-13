@@ -5,6 +5,7 @@ import DigitalTrends from "@/components/digital-trends";
 import KeyObjectives from "@/components/key-objectives";
 import MemberCompanies from "@/components/member-companies";
 import ManagementStructure from "@/components/management-structure";
+import AutomationProjects from "@/components/automation-projects";
 import MemberBenefits from "@/components/member-benefits";
 import ConclusionSection from "@/components/conclusion-section";
 import Footer from "@/components/footer";
@@ -19,6 +20,7 @@ export default function Home() {
       <KeyObjectives />
       <MemberCompanies />
       <ManagementStructure />
+      <AutomationProjects />
       <MemberBenefits />
       <ConclusionSection />
       <Footer />
